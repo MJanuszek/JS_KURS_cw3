@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: rgba(246, 196, 121, 0.427);
+            font-size: 25px;
+        }
+
+        button {
+            display: block;
+            font-size: 30px;
+            margin: 20px auto 50px;
+            background-color: rgb(244, 233, 165);
+            border: 2px solid black;
+            border-radius: 15%;
+            padding: 30px;
+        }
+
+        #add-new {
+            display: block;
+            font-size: 20px;
+            margin: 10px auto 50px;
+            background-color: rgb(244, 233, 165);
+            border: 2px solid black;
+            border-radius: 15%;
+            padding: 20px;
+        }
+
+        button:hover {
+            font-size: 32px;
+            background-color: rgb(249, 218, 190);
+        }
+
+        #add-new:hover {
+            font-size: 22px;
+            background-color: rgb(249, 218, 190);
+        }
+
+        div {
+            text-align: center;
+        }
+
+        #new-input,
+        label {
+            display: block;
+            text-align: center;
+            font-size: 25px;
+            margin: 20px auto 10px;
+        }
+    </style>
+    <title>Ćwiczenia z Kursu JS </title>
+</head>
+
+<body>
+    <button id="draw-btn"> Draw japanese folklore monster</button>
+    <div id="show-message"></div>
+    <script src="main.js"></script>
+    <br>
+    <label for="new-input">New youkai name:</label>
+    <input id="new-input" type="text">
+    <br>
+    <button id="add-new">Add new youkai</button>
+</body>
+
+</html>
